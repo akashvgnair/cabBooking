@@ -35,14 +35,14 @@ subprojects {
     // Java toolchain
     extensions.configure<JavaPluginExtension> {
         toolchain {
-            languageVersion.set(JavaLanguageVersion.of(24))
+            languageVersion.set(JavaLanguageVersion.of(21))
         }
     }
 
     // Kotlin compilation target
     tasks.withType<KotlinCompile>().configureEach {
         compilerOptions.jvmTarget.set(
-            org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_24
+            org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21
         )
     }
 }

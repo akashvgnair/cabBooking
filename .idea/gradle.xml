@@ -8,10 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/modules/application" />
-            <option value="$PROJECT_DIR$/modules/domain" />
-            <option value="$PROJECT_DIR$/modules/infrastructure" />
-            <option value="$PROJECT_DIR$/modules/shared-kernel" />
+            <option value="$PROJECT_DIR$/application" />
+            <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/infrastructure" />
+            <option value="$PROJECT_DIR$/shared-kernel" />
           </set>
         </option>
       </GradleProjectSettings>
