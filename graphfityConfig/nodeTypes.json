@@ -1,0 +1,6 @@
+[
+  { "name": "Infrastructure", "regex": "^:infrastructure$", "isEnabled": true, "shape": "box", "fillColor": "#E6F98A" },
+  { "name": "Application",    "regex": "^:application$",    "isEnabled": true, "shape": "box", "fillColor": "#8AD8F9" },
+  { "name": "Domain",         "regex": "^:domain$",         "isEnabled": true, "shape": "box", "fillColor": "#BAFFC9" },
+  { "name": "Shared",         "regex": "^:shared-kernel$",  "isEnabled": true, "shape": "box", "fillColor": "#FFACFA" }
+]
