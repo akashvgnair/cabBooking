@@ -49,6 +49,6 @@ subprojects {
 
 graphfityExtension {
     nodeTypesPath = "graphfityConfig/nodeTypes.json"
-    projectRootName = ":infrastructure"
+    projectRootName = ":test-support"
     graphImagePath = "build/reports/module-graph"
 }

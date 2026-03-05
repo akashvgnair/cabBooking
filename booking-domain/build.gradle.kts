@@ -1,4 +1,4 @@
 dependencies {
     implementation(project(":shared-kernel"))
-    implementation(project(":domain"))
+    testImplementation(project(":test-support"))
 }
