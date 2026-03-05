@@ -3,7 +3,7 @@ import org.gradle.api.plugins.JavaPluginExtension
 import org.gradle.jvm.toolchain.JavaLanguageVersion
 
 plugins {
-    kotlin("jvm") version "2.2.10" apply false
+    kotlin("jvm") version "2.0.21" apply false
     id("com.github.ivancarras.graphfity") version "1.2.0"
 }
 
@@ -49,6 +49,6 @@ subprojects {
 
 graphfityExtension {
     nodeTypesPath = "graphfityConfig/nodeTypes.json"
-    projectRootName = ":test-support"
+    projectRootName = ":main"
     graphImagePath = "build/reports/module-graph"
 }
