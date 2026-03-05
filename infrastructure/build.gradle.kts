@@ -9,4 +9,5 @@ application {
 dependencies {
     implementation(project(":shared-kernel"))
     implementation(project(":application"))
+    implementation(project(":domain"))
 }
